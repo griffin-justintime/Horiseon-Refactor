@@ -1,11 +1,11 @@
-/* Universal Selector */
+/* Universal Styling */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* Element Selectors */
+/* Body Element Styling*/
 body {
   background-color: #d9dcd6;
 }
@@ -19,7 +19,7 @@ p {
   font-size: 16px;
 }
 
-/* Header Styling */
+/* Header & Nav Bar Element Styling */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -49,11 +49,11 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* Specialty h1 Class Style */
 .seo {
   color: #d9dcd6;
 }
-
+/* Jumbotron Class Styling */
 .hero {
   height: 800px;
   width: 100%;
@@ -63,6 +63,7 @@ header nav ul li {
   background-position: center;
 }
 
+/* Main Content Class Styling */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -77,52 +78,6 @@ header nav ul li {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
-}
-
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-
-/* .benefit-lead,
-.benefit-brand,
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-} */
-.benefit {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-/* .benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-} */
-.benefit h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-/* .benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-} */
-.benefit img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
 }
 
 .products {
@@ -142,6 +97,35 @@ header nav ul li {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/* Sidebar Class Styling */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+.benefit {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefit h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
 /* Footer Styling */
 .footer {
   padding: 30px;
